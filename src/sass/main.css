@@ -5,6 +5,7 @@
   --secondary-title-color: #ffa5ba;
   --bg-color: #ffffff;
   --secondaru-bg-color: #fff5f6;
+  --third-bg-color: #ffb8ca;
   --accent-color: #d41443;
 }
 
@@ -172,5 +173,9 @@ button {
   width: 6px;
   height: 10px;
   fill: currentColor;
+}
+
+.hero-div {
+  background-image: url(.../images/hero/ellipse-mobile@1x.png);
 }
 /*# sourceMappingURL=main.css.map */

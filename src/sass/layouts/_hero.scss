@@ -1,0 +1,47 @@
+.hero-div {
+  background-color: var(--third-bg-color);
+}
+.hero-main {
+  padding: 193px 82px 160px 0;
+  width: 218px;
+
+  @media screen and (min-width: 768px) {
+    padding: 102px 0 66px 0;
+    width: 162px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 171px 0 112px 0;
+    width: 277px;
+  }
+}
+.hero-main__title {
+  margin-bottom: 19px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 29.77px;
+  color: var(--white-text-color);
+}
+.hero-main__title-correction {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 45.84px;
+  color: var(--accent-color);
+}
+.hero__button-alternative {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.hero-right {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+.hero-secondary {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
