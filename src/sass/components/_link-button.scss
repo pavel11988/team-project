@@ -7,6 +7,11 @@
   background-color: var(--bg-color);
   color: var(--accent-color);
 
+  &:hover,
+  &:focus {
+    background-color: var(--secondaru-bg-color);
+  }
+
   @media screen and (min-width: 1200px) {
     height: 40px;
   }
